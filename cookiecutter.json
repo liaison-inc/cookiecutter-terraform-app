@@ -2,6 +2,7 @@
 	"name": "",
 	"description": "",
 	"site": "",
+	"organization": "{{cookiecutter.site}}",
 	"environments": "dev, stage, prod",
 	"module": ""
 }
