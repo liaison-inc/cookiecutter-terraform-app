@@ -1,5 +1,6 @@
-module "{{cookiecutter.name}}" {
-    source = "{{cookiecutter.module}}"
+module "{{cookiecutter.module}}" {
+    source = "app.terraform.io/{{cookiecutter.organization}}/{{cookiecutter.module}}/{{cookiecutter.provider}}"
+    version = ""
     SITE = "{{cookiecutter.site}}"
     NAME = "{{cookiecutter.name}}"
     ENV = "stage"

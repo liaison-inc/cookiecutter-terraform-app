@@ -2,6 +2,7 @@
 	"name": "",
 	"description": "",
 	"site": "",
+	"provider": "aws",
 	"organization": "{{cookiecutter.site}}",
 	"environments": "dev, stage, prod",
 	"module": ""
