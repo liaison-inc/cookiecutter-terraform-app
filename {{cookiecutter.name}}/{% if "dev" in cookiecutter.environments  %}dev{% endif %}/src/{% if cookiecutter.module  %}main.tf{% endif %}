@@ -1,5 +1,5 @@
 module "{{cookiecutter.module}}" {
-    source = "app.terraform.io/Liaison/{{cookiecutter.module}}/{{cookiecutter.provider}}"
+    source = "app.terraform.io/{{cookiecutter.module_organization}}/{{cookiecutter.module}}/{{cookiecutter.provider}}"
     version = ""
     SITE = "{{cookiecutter.site}}"
     NAME = "{{cookiecutter.name}}"
