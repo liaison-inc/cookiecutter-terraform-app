@@ -3,7 +3,7 @@ terraform {
         organization = "{{cookiecutter.organization}}"
 
         workspaces {
-            name = "{{cookiecutter.name}}"
+            name = "stage-{{cookiecutter.name}}"
         }
     }
 }
