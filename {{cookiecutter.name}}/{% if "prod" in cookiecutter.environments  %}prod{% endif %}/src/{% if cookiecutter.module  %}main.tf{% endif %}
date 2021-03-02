@@ -1,7 +1,9 @@
 module "{{cookiecutter.module}}" {
     source = "app.terraform.io/{{cookiecutter.module_organization}}/{{cookiecutter.module}}/{{cookiecutter.provider}}"
     version = ""
-    SITE = "{{cookiecutter.site}}"
+    {% if cookiecutter.site %}
+	SITE = "{{cookiecutter.site}}"
+	{% endif %}
     NAME = "{{cookiecutter.name}}"
     ENV = "prod"
 }
