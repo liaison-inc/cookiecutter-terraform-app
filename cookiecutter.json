@@ -3,5 +3,5 @@
 	"name": "",
 	"description": "",
 	"tfc-org": "",
-	"environment-less": "false"
+	"hasEnvironments": "true"
 }
