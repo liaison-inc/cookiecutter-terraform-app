@@ -1,3 +1,4 @@
 .DS_Store
 .terraform
 .terragrunt-cache
+terraform.auto.tfvars.json
