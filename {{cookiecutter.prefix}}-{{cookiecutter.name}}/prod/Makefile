@@ -2,6 +2,8 @@ apply:
 	make tfvars-noforce && terragrunt apply
 destroy:
 	terragrunt destroy
+output:
+	terragrunt output
 test:
 	terragrunt apply --terragrunt-source ../src
 tfvars-noforce:

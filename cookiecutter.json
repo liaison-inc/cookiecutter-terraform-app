@@ -2,6 +2,7 @@
 	"prefix": "tfc",
 	"org": "liaison-admin",
 	"profile": "liaison",
+	"region": "us-east-1",
 	"name": "",
 	"description": ""
 }
