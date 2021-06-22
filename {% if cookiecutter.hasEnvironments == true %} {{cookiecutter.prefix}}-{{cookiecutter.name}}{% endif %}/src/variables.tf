@@ -2,7 +2,7 @@ variable "AWS_ACCESS_KEY_ID" {}
 variable "AWS_SECRET_ACCESS_KEY" {}
 variable "AWS_DEFAULT_REGION" {}
 
-{% if cookiecutter.environment-less != "true" %}
+{% if cookiecutter.hasEnvironments == true %}
 variable "environment" {
     type = string
     description = "value is attached to resources (as a tag)"
