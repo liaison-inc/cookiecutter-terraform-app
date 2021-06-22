@@ -1,10 +1,6 @@
 {
+	"prefix": "tfc",
 	"name": "",
 	"description": "",
-	"site": "",
-	"provider": "aws",
-	"organization": "{{cookiecutter.site}}",
-	"environments": "dev, stage, prod",
-	"module": "",
-	"module_organization": "Liaison"
+	"environment-less": "false"
 }
