@@ -34,7 +34,7 @@ while [[ $# -gt 0 ]]; do
   shift
 done
 
-if [[ -f $FILE_NAME ]] && [ $FORCE != true ]; then
+if [ -f "$FILE_NAME" ] && [ "$FORCE" != true ]; then
   exit 0
 fi
 
