@@ -10,7 +10,7 @@ generate "backend" {
 	contents = <<EOF
 terraform {
 	backend "remote" {
-    	organization = "{{cookiecutter.org]}}"
+    	organization = "{{cookiecutter.org}}"
 		workspaces {
 			name = "${local.environment}-${local.site}-${local.name}"
 		}
