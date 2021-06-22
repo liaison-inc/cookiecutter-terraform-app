@@ -5,6 +5,7 @@ variable "AWS_DEFAULT_REGION" {}
 variable "environment" {
     type = string
     description = "value is attached to resources (as a tag)"
+    default = "dev"
     validation {
         condition = contains([
             "dev",
