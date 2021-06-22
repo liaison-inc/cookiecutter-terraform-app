@@ -1,2 +1,0 @@
-# {{cookiecutter.name}}
-{{cookiecutter.description}}

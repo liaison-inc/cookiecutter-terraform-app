@@ -1,7 +1,6 @@
 {
 	"prefix": "tfc",
+	"tfc-org": "liaison-admin",
 	"name": "",
-	"description": "",
-	"tfc-org": "",
-	"hasEnvironments": "true"
+	"description": ""
 }
